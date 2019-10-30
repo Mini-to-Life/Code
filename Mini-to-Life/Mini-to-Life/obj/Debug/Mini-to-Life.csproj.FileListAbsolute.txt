@@ -1,0 +1,9 @@
+C:\Users\ygebo\Desktop\Project\Code\Mini-to-Life\Mini-to-Life\bin\Debug\Mini-to-Life.exe.config
+C:\Users\ygebo\Desktop\Project\Code\Mini-to-Life\Mini-to-Life\bin\Debug\Mini-to-Life.exe
+C:\Users\ygebo\Desktop\Project\Code\Mini-to-Life\Mini-to-Life\bin\Debug\Mini-to-Life.pdb
+C:\Users\ygebo\Desktop\Project\Code\Mini-to-Life\Mini-to-Life\obj\Debug\Mini-to-Life.csprojAssemblyReference.cache
+C:\Users\ygebo\Desktop\Project\Code\Mini-to-Life\Mini-to-Life\obj\Debug\Mini_to_Life.Form1.resources
+C:\Users\ygebo\Desktop\Project\Code\Mini-to-Life\Mini-to-Life\obj\Debug\Mini_to_Life.Properties.Resources.resources
+C:\Users\ygebo\Desktop\Project\Code\Mini-to-Life\Mini-to-Life\obj\Debug\Mini-to-Life.csproj.GenerateResource.cache
+C:\Users\ygebo\Desktop\Project\Code\Mini-to-Life\Mini-to-Life\obj\Debug\Mini-to-Life.exe
+C:\Users\ygebo\Desktop\Project\Code\Mini-to-Life\Mini-to-Life\obj\Debug\Mini-to-Life.pdb
