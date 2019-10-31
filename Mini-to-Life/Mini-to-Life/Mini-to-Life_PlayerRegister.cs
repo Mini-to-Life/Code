@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace Mini_to_Life
 {
-    public partial class MiniToLife : Form
+    public partial class MiniToLifePlayerRegister : Form
     {
-        public MiniToLife()
+        public MiniToLifePlayerRegister()
         {
             InitializeComponent();
         }
 
-        private void PB_logo_Click(object sender, EventArgs e)
+        private void StartGame_Click(object sender, EventArgs e)
         {
-            MiniToLifePlayerRegister settingsForm = new MiniToLifePlayerRegister();
+            MiniToLife settingsForm = new MiniToLife();
             settingsForm.Show();
             this.Hide();
         }

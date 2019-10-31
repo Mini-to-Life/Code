@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Mini-to-Life_PlayerRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mini-to-Life_PlayerRegister.Designer.cs">
+      <DependentUpon>Mini-to-Life_PlayerRegister.cs</DependentUpon>
+    </Compile>
     <Compile Include="Mini-to-Life_GameScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -56,6 +62,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Mini-to-Life_GameScreen.resx">
       <DependentUpon>Mini-to-Life_GameScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mini-to-Life_PlayerRegister.resx">
+      <DependentUpon>Mini-to-Life_PlayerRegister.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

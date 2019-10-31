@@ -73,15 +73,18 @@
             this.PB_logo.Size = new System.Drawing.Size(200, 200);
             this.PB_logo.TabIndex = 0;
             this.PB_logo.TabStop = false;
+            this.PB_logo.Click += new System.EventHandler(this.PB_logo_Click);
             // 
             // Player1
             // 
+            this.Player1.BackColor = System.Drawing.Color.Transparent;
             this.Player1.Controls.Add(this.textBox1);
             this.Player1.Controls.Add(this.CB_Modelselector_player1);
             this.Player1.Controls.Add(this.toolStrip1);
             this.Player1.Controls.Add(this.TB_playerNaam1);
             this.Player1.Controls.Add(this.TB_naam_player1);
             this.Player1.Controls.Add(this.PB_player1);
+            this.Player1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Player1.Location = new System.Drawing.Point(13, 10);
             this.Player1.Name = "Player1";
             this.Player1.Size = new System.Drawing.Size(550, 700);
@@ -125,6 +128,7 @@
             // 
             // tSTB_player1_Stats
             // 
+            this.tSTB_player1_Stats.ForeColor = System.Drawing.SystemColors.ControlText;
             this.tSTB_player1_Stats.Name = "tSTB_player1_Stats";
             this.tSTB_player1_Stats.Size = new System.Drawing.Size(50, 22);
             this.tSTB_player1_Stats.Text = "Stats";
@@ -136,6 +140,7 @@
             // 
             // tSTB_player1_Buffs
             // 
+            this.tSTB_player1_Buffs.ForeColor = System.Drawing.SystemColors.ControlText;
             this.tSTB_player1_Buffs.Name = "tSTB_player1_Buffs";
             this.tSTB_player1_Buffs.Size = new System.Drawing.Size(51, 22);
             this.tSTB_player1_Buffs.Text = "Buffs";
@@ -147,6 +152,7 @@
             // 
             // tSTB_player1_Rules
             // 
+            this.tSTB_player1_Rules.ForeColor = System.Drawing.SystemColors.ControlText;
             this.tSTB_player1_Rules.Name = "tSTB_player1_Rules";
             this.tSTB_player1_Rules.Size = new System.Drawing.Size(52, 22);
             this.tSTB_player1_Rules.Text = "Rules";
@@ -180,12 +186,14 @@
             // 
             // Player2
             // 
+            this.Player2.BackColor = System.Drawing.Color.Transparent;
             this.Player2.Controls.Add(this.BoxItemRulings_player2);
             this.Player2.Controls.Add(this.comboBox1);
             this.Player2.Controls.Add(this.toolStrip2);
             this.Player2.Controls.Add(this.TB_playerNaam2);
             this.Player2.Controls.Add(this.TB_naam_player2);
             this.Player2.Controls.Add(this.PB_player2);
+            this.Player2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Player2.Location = new System.Drawing.Point(788, 17);
             this.Player2.Name = "Player2";
             this.Player2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -230,6 +238,7 @@
             // 
             // toolStripLabel1
             // 
+            this.toolStripLabel1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.toolStripLabel1.Name = "toolStripLabel1";
             this.toolStripLabel1.Size = new System.Drawing.Size(50, 22);
             this.toolStripLabel1.Text = "Stats";
@@ -241,6 +250,7 @@
             // 
             // toolStripLabel2
             // 
+            this.toolStripLabel2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.toolStripLabel2.Name = "toolStripLabel2";
             this.toolStripLabel2.Size = new System.Drawing.Size(51, 22);
             this.toolStripLabel2.Text = "Buffs";
@@ -252,6 +262,7 @@
             // 
             // toolStripLabel3
             // 
+            this.toolStripLabel3.ForeColor = System.Drawing.SystemColors.ControlText;
             this.toolStripLabel3.Name = "toolStripLabel3";
             this.toolStripLabel3.Size = new System.Drawing.Size(52, 22);
             this.toolStripLabel3.Text = "Rules";
@@ -287,6 +298,7 @@
             // 
             this.TB_battleRound.Location = new System.Drawing.Point(631, 216);
             this.TB_battleRound.Name = "TB_battleRound";
+            this.TB_battleRound.ReadOnly = true;
             this.TB_battleRound.Size = new System.Drawing.Size(100, 34);
             this.TB_battleRound.TabIndex = 3;
             this.TB_battleRound.Text = "Ronde:";
@@ -305,6 +317,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1350, 729);
             this.Controls.Add(this.TB_RoundNumerical);
             this.Controls.Add(this.TB_battleRound);
@@ -315,7 +328,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
             this.Name = "MiniToLife";
-            this.Text = "Mini-to-Life";
+            this.Text = "Mini-to-Life Game";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.PB_logo)).EndInit();
             this.Player1.ResumeLayout(false);
