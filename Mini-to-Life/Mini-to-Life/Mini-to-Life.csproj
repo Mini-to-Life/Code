@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{82FFB601-77FD-448D-B5F3-AC82F9A00494}</ProjectGuid>
+    <ProjectGuid>{3B863C64-D282-4B01-A2FE-4BE399F5B6B0}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Mini_to_Life</RootNamespace>
     <AssemblyName>Mini-to-Life</AssemblyName>

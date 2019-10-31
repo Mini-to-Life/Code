@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Mini_to_Life
 {
-    public partial class Form1 : Form
+    public partial class MiniToLife : Form
     {
-        public Form1()
+        public MiniToLife()
         {
             InitializeComponent();
         }
