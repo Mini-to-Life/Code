@@ -26,7 +26,15 @@ namespace Mini_to_Life
             for (int i = 0; i != D6; i++)
             {
                 dice6 = randomD6.Next(1, 7);
-                DicesD6.Add(dice6);
+                if (CB_R1.Checked)
+                {
+                    dice6 = randomD6.Next(1, 7);
+                    DicesD6.Add(dice6);
+                }
+                else
+                {
+                    DicesD6.Add(dice6);
+                }
             }
             string resultD6 = string.Join(", ", DicesD6);
             TB_Rolled_D6.Text = resultD6;
@@ -38,7 +46,15 @@ namespace Mini_to_Life
             for (int i = 0; i != D3; i++)
             {
                 dice3 = randomD3.Next(1, 4);
-                DicesD3.Add(dice3);
+                if (CB_R1.Checked)
+                {
+                    dice3 = randomD3.Next(1, 4);
+                    DicesD3.Add(dice3);
+                }
+                else
+                {
+                    DicesD3.Add(dice3);
+                }
             }
             string resultD3 = string.Join(", ", DicesD3);
             TB_Rolled_D3.Text = resultD3;

@@ -9,3 +9,4 @@ C:\Users\ygebo\Desktop\Project\Code\Mini-to-Life\Mini-to-Life\obj\Debug\Mini-to-
 C:\Users\ygebo\Desktop\Project\Code\Mini-to-Life\Mini-to-Life\obj\Debug\Mini-to-Life.pdb
 C:\Users\ygebo\Desktop\Project\Code\Mini-to-Life\Mini-to-Life\obj\Debug\Mini_to_Life.MiniToLifePlayerRegister.resources
 C:\Users\ygebo\Desktop\Project\Code\Mini-to-Life\Mini-to-Life\obj\Debug\Mini_to_Life.DiceTool.resources
+C:\Users\ygebo\Desktop\Project\Code\Mini-to-Life\Mini-to-Life\obj\Debug\Mini_to_Life.MTL_Register_Mini.resources

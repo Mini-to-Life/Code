@@ -16,7 +16,7 @@ namespace Mini_to_Life
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MiniToLifePlayerRegister());
+            Application.Run(new MiniToLifePlayerRegister(null));
         }
     }
 }

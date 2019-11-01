@@ -45,7 +45,7 @@
             this.Player2 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.BoxItemRulings_player2 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.CB_Modelselector_player2 = new System.Windows.Forms.ComboBox();
             this.toolStrip2 = new System.Windows.Forms.ToolStrip();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
@@ -193,7 +193,7 @@
             this.Player2.BackColor = System.Drawing.Color.Transparent;
             this.Player2.Controls.Add(this.label1);
             this.Player2.Controls.Add(this.BoxItemRulings_player2);
-            this.Player2.Controls.Add(this.comboBox1);
+            this.Player2.Controls.Add(this.CB_Modelselector_player2);
             this.Player2.Controls.Add(this.toolStrip2);
             this.Player2.Controls.Add(this.TB_playerNaam2);
             this.Player2.Controls.Add(this.PB_player2);
@@ -225,13 +225,13 @@
             this.BoxItemRulings_player2.TabIndex = 6;
             this.BoxItemRulings_player2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // comboBox1
+            // CB_Modelselector_player2
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(79, 73);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(259, 34);
-            this.comboBox1.TabIndex = 5;
+            this.CB_Modelselector_player2.FormattingEnabled = true;
+            this.CB_Modelselector_player2.Location = new System.Drawing.Point(79, 73);
+            this.CB_Modelselector_player2.Name = "CB_Modelselector_player2";
+            this.CB_Modelselector_player2.Size = new System.Drawing.Size(259, 34);
+            this.CB_Modelselector_player2.TabIndex = 5;
             // 
             // toolStrip2
             // 
@@ -413,7 +413,7 @@
         private System.Windows.Forms.ToolStripLabel tSTB_player1_Buffs;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripLabel tSTB_player1_Rules;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox CB_Modelselector_player2;
         private System.Windows.Forms.ToolStrip toolStrip2;
         private System.Windows.Forms.ToolStripLabel toolStripLabel1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;

@@ -13,9 +13,27 @@ namespace Mini_to_Life
 {
     public partial class MiniToLifePlayerRegister : Form
     {
-        public MiniToLifePlayerRegister()
+        List<string> MiniaturesP1 = new List<string>();
+        List<string> MiniaturesP2 = new List<string>();
+        string ModelNaam;
+        public MiniToLifePlayerRegister(string Naam)
         {
+            ModelNaam = Naam;
             InitializeComponent();
+        }
+
+        private void P1_MR_Click(object sender, EventArgs e)
+        {
+            MTL_Register_Mini settingsForm = new MTL_Register_Mini();
+            settingsForm.Show();
+            MiniaturesP1.Add(ModelNaam);
+            LB_RM_P1.Items.Add(string.Join(Environment.NewLine, TB_naam_P1.Text));
+        }
+
+        private void P2_MR_Click(object sender, EventArgs e)
+        {
+            MiniaturesP2.Add(TB_naam_P2.Text);
+            LB_RM_P2.Items.Add(string.Join(Environment.NewLine, TB_naam_P2.Text));
         }
 
         private void StartGame_Click(object sender, EventArgs e)
@@ -32,23 +50,9 @@ namespace Mini_to_Life
                 MessageBox.Show(ex.ToString(), "Er is een fout");
             }
             */
-            MiniToLife settingsForm = new MiniToLife();
+            MiniToLife settingsForm = new MiniToLife(MiniaturesP1, MiniaturesP2);
             settingsForm.Show();
             this.Hide();
-        }
-
-        private void P1_MR_Click(object sender, EventArgs e)
-        {
-            var MiniaturesP1 = new List<string>();
-            MiniaturesP1.Add(TB_naam_P1.Text);
-            LB_RM_P1.Items.Add(string.Join(Environment.NewLine, MiniaturesP1));
-        }
-
-        private void P2_MR_Click(object sender, EventArgs e)
-        {
-            var MiniaturesP2 = new List<string>();
-            MiniaturesP2.Add(TB_naam_P2.Text);
-            LB_RM_P2.Items.Add(string.Join(Environment.NewLine, MiniaturesP2));
         }
     }
 }
