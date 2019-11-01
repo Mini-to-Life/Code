@@ -36,5 +36,19 @@ namespace Mini_to_Life
             settingsForm.Show();
             this.Hide();
         }
+
+        private void P1_MR_Click(object sender, EventArgs e)
+        {
+            var MiniaturesP1 = new List<string>();
+            MiniaturesP1.Add(TB_naam_P1.Text);
+            LB_RM_P1.Items.Add(string.Join(Environment.NewLine, MiniaturesP1));
+        }
+
+        private void P2_MR_Click(object sender, EventArgs e)
+        {
+            var MiniaturesP2 = new List<string>();
+            MiniaturesP2.Add(TB_naam_P2.Text);
+            LB_RM_P2.Items.Add(string.Join(Environment.NewLine, MiniaturesP2));
+        }
     }
 }

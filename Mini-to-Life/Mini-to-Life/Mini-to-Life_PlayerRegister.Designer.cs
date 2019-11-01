@@ -95,6 +95,7 @@
             this.P1_MR.TabIndex = 2;
             this.P1_MR.Text = "Register Miniature";
             this.P1_MR.UseVisualStyleBackColor = true;
+            this.P1_MR.Click += new System.EventHandler(this.P1_MR_Click);
             // 
             // TB_naam_P1
             // 
@@ -137,6 +138,7 @@
             this.P2_MR.TabIndex = 3;
             this.P2_MR.Text = "Register Miniature";
             this.P2_MR.UseVisualStyleBackColor = true;
+            this.P2_MR.MouseClick += new System.Windows.Forms.MouseEventHandler(this.P2_MR_Click);
             // 
             // TB_naam_P2
             // 
