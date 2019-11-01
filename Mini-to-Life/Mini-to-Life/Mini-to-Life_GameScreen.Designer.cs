@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MiniToLife));
             this.PB_logo = new System.Windows.Forms.PictureBox();
             this.Player1 = new System.Windows.Forms.GroupBox();
+            this.LB_Naam_P1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.CB_Modelselector_player1 = new System.Windows.Forms.ComboBox();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
@@ -40,9 +41,9 @@
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.tSTB_player1_Rules = new System.Windows.Forms.ToolStripLabel();
             this.TB_playerNaam1 = new System.Windows.Forms.TextBox();
-            this.TB_naam_player1 = new System.Windows.Forms.TextBox();
             this.PB_player1 = new System.Windows.Forms.PictureBox();
             this.Player2 = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.BoxItemRulings_player2 = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.toolStrip2 = new System.Windows.Forms.ToolStrip();
@@ -52,10 +53,14 @@
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
             this.TB_playerNaam2 = new System.Windows.Forms.TextBox();
-            this.TB_naam_player2 = new System.Windows.Forms.TextBox();
             this.PB_player2 = new System.Windows.Forms.PictureBox();
-            this.TB_battleRound = new System.Windows.Forms.TextBox();
-            this.TB_RoundNumerical = new System.Windows.Forms.TextBox();
+            this.TB_Ronde = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.TB_Fase = new System.Windows.Forms.TextBox();
+            this.BT_volgendeRonde = new System.Windows.Forms.Button();
+            this.BT_volgendeFase = new System.Windows.Forms.Button();
+            this.BT_DiceTool = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.PB_logo)).BeginInit();
             this.Player1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
@@ -78,19 +83,28 @@
             // Player1
             // 
             this.Player1.BackColor = System.Drawing.Color.Transparent;
+            this.Player1.Controls.Add(this.LB_Naam_P1);
             this.Player1.Controls.Add(this.textBox1);
             this.Player1.Controls.Add(this.CB_Modelselector_player1);
             this.Player1.Controls.Add(this.toolStrip1);
             this.Player1.Controls.Add(this.TB_playerNaam1);
-            this.Player1.Controls.Add(this.TB_naam_player1);
             this.Player1.Controls.Add(this.PB_player1);
-            this.Player1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Player1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Player1.Location = new System.Drawing.Point(13, 10);
             this.Player1.Name = "Player1";
             this.Player1.Size = new System.Drawing.Size(550, 700);
             this.Player1.TabIndex = 1;
             this.Player1.TabStop = false;
             this.Player1.Text = "Player 1";
+            // 
+            // LB_Naam_P1
+            // 
+            this.LB_Naam_P1.AutoSize = true;
+            this.LB_Naam_P1.Location = new System.Drawing.Point(219, 43);
+            this.LB_Naam_P1.Name = "LB_Naam_P1";
+            this.LB_Naam_P1.Size = new System.Drawing.Size(95, 26);
+            this.LB_Naam_P1.TabIndex = 8;
+            this.LB_Naam_P1.Text = "Naam:";
             // 
             // textBox1
             // 
@@ -165,16 +179,6 @@
             this.TB_playerNaam1.Size = new System.Drawing.Size(223, 34);
             this.TB_playerNaam1.TabIndex = 2;
             // 
-            // TB_naam_player1
-            // 
-            this.TB_naam_player1.Location = new System.Drawing.Point(213, 40);
-            this.TB_naam_player1.Name = "TB_naam_player1";
-            this.TB_naam_player1.ReadOnly = true;
-            this.TB_naam_player1.Size = new System.Drawing.Size(100, 34);
-            this.TB_naam_player1.TabIndex = 1;
-            this.TB_naam_player1.Text = "Naam:";
-            this.TB_naam_player1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // PB_player1
             // 
             this.PB_player1.Image = ((System.Drawing.Image)(resources.GetObject("PB_player1.Image")));
@@ -187,13 +191,13 @@
             // Player2
             // 
             this.Player2.BackColor = System.Drawing.Color.Transparent;
+            this.Player2.Controls.Add(this.label1);
             this.Player2.Controls.Add(this.BoxItemRulings_player2);
             this.Player2.Controls.Add(this.comboBox1);
             this.Player2.Controls.Add(this.toolStrip2);
             this.Player2.Controls.Add(this.TB_playerNaam2);
-            this.Player2.Controls.Add(this.TB_naam_player2);
             this.Player2.Controls.Add(this.PB_player2);
-            this.Player2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Player2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Player2.Location = new System.Drawing.Point(788, 17);
             this.Player2.Name = "Player2";
             this.Player2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -201,6 +205,15 @@
             this.Player2.TabIndex = 2;
             this.Player2.TabStop = false;
             this.Player2.Text = "Player 2";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(238, 36);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(95, 26);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Naam:";
             // 
             // BoxItemRulings_player2
             // 
@@ -275,16 +288,6 @@
             this.TB_playerNaam2.Size = new System.Drawing.Size(226, 34);
             this.TB_playerNaam2.TabIndex = 3;
             // 
-            // TB_naam_player2
-            // 
-            this.TB_naam_player2.Location = new System.Drawing.Point(238, 33);
-            this.TB_naam_player2.Name = "TB_naam_player2";
-            this.TB_naam_player2.ReadOnly = true;
-            this.TB_naam_player2.Size = new System.Drawing.Size(100, 34);
-            this.TB_naam_player2.TabIndex = 2;
-            this.TB_naam_player2.Text = "Naam:";
-            this.TB_naam_player2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // PB_player2
             // 
             this.PB_player2.Image = ((System.Drawing.Image)(resources.GetObject("PB_player2.Image")));
@@ -294,33 +297,82 @@
             this.PB_player2.TabIndex = 1;
             this.PB_player2.TabStop = false;
             // 
-            // TB_battleRound
+            // TB_Ronde
             // 
-            this.TB_battleRound.Location = new System.Drawing.Point(631, 216);
-            this.TB_battleRound.Name = "TB_battleRound";
-            this.TB_battleRound.ReadOnly = true;
-            this.TB_battleRound.Size = new System.Drawing.Size(100, 34);
-            this.TB_battleRound.TabIndex = 3;
-            this.TB_battleRound.Text = "Ronde:";
-            this.TB_battleRound.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TB_Ronde.Location = new System.Drawing.Point(576, 256);
+            this.TB_Ronde.Name = "TB_Ronde";
+            this.TB_Ronde.ReadOnly = true;
+            this.TB_Ronde.Size = new System.Drawing.Size(93, 34);
+            this.TB_Ronde.TabIndex = 4;
+            this.TB_Ronde.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // TB_RoundNumerical
+            // label2
             // 
-            this.TB_RoundNumerical.Location = new System.Drawing.Point(631, 256);
-            this.TB_RoundNumerical.Name = "TB_RoundNumerical";
-            this.TB_RoundNumerical.ReadOnly = true;
-            this.TB_RoundNumerical.Size = new System.Drawing.Size(100, 34);
-            this.TB_RoundNumerical.TabIndex = 4;
-            this.TB_RoundNumerical.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(571, 227);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(98, 26);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "Ronde";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(571, 293);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(78, 26);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "Fase";
+            // 
+            // TB_Fase
+            // 
+            this.TB_Fase.Location = new System.Drawing.Point(576, 322);
+            this.TB_Fase.Name = "TB_Fase";
+            this.TB_Fase.ReadOnly = true;
+            this.TB_Fase.Size = new System.Drawing.Size(93, 34);
+            this.TB_Fase.TabIndex = 11;
+            this.TB_Fase.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // BT_volgendeRonde
+            // 
+            this.BT_volgendeRonde.Location = new System.Drawing.Point(675, 255);
+            this.BT_volgendeRonde.Name = "BT_volgendeRonde";
+            this.BT_volgendeRonde.Size = new System.Drawing.Size(38, 34);
+            this.BT_volgendeRonde.TabIndex = 12;
+            this.BT_volgendeRonde.Text = ">";
+            this.BT_volgendeRonde.UseVisualStyleBackColor = true;
+            // 
+            // BT_volgendeFase
+            // 
+            this.BT_volgendeFase.Location = new System.Drawing.Point(675, 321);
+            this.BT_volgendeFase.Name = "BT_volgendeFase";
+            this.BT_volgendeFase.Size = new System.Drawing.Size(38, 34);
+            this.BT_volgendeFase.TabIndex = 13;
+            this.BT_volgendeFase.Text = ">";
+            this.BT_volgendeFase.UseVisualStyleBackColor = true;
+            // 
+            // BT_DiceTool
+            // 
+            this.BT_DiceTool.Location = new System.Drawing.Point(574, 630);
+            this.BT_DiceTool.Name = "BT_DiceTool";
+            this.BT_DiceTool.Size = new System.Drawing.Size(202, 74);
+            this.BT_DiceTool.TabIndex = 14;
+            this.BT_DiceTool.Text = "Dice Tool";
+            this.BT_DiceTool.UseVisualStyleBackColor = true;
+            this.BT_DiceTool.Click += new System.EventHandler(this.BT_DiceTool_Click);
             // 
             // MiniToLife
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1350, 729);
-            this.Controls.Add(this.TB_RoundNumerical);
-            this.Controls.Add(this.TB_battleRound);
+            this.Controls.Add(this.BT_DiceTool);
+            this.Controls.Add(this.BT_volgendeFase);
+            this.Controls.Add(this.BT_volgendeRonde);
+            this.Controls.Add(this.TB_Fase);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.TB_Ronde);
             this.Controls.Add(this.Player2);
             this.Controls.Add(this.Player1);
             this.Controls.Add(this.PB_logo);
@@ -329,7 +381,6 @@
             this.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
             this.Name = "MiniToLife";
             this.Text = "Mini-to-Life Game";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.PB_logo)).EndInit();
             this.Player1.ResumeLayout(false);
             this.Player1.PerformLayout();
@@ -351,11 +402,9 @@
         private System.Windows.Forms.PictureBox PB_logo;
         private System.Windows.Forms.GroupBox Player1;
         private System.Windows.Forms.TextBox TB_playerNaam1;
-        private System.Windows.Forms.TextBox TB_naam_player1;
         private System.Windows.Forms.PictureBox PB_player1;
         private System.Windows.Forms.GroupBox Player2;
         private System.Windows.Forms.TextBox TB_playerNaam2;
-        private System.Windows.Forms.TextBox TB_naam_player2;
         private System.Windows.Forms.PictureBox PB_player2;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ComboBox CB_Modelselector_player1;
@@ -373,8 +422,15 @@
         private System.Windows.Forms.ToolStripLabel toolStripLabel3;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox BoxItemRulings_player2;
-        private System.Windows.Forms.TextBox TB_battleRound;
-        private System.Windows.Forms.TextBox TB_RoundNumerical;
+        private System.Windows.Forms.TextBox TB_Ronde;
+        private System.Windows.Forms.Label LB_Naam_P1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox TB_Fase;
+        private System.Windows.Forms.Button BT_volgendeRonde;
+        private System.Windows.Forms.Button BT_volgendeFase;
+        private System.Windows.Forms.Button BT_DiceTool;
     }
 }
 

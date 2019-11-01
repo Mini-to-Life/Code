@@ -69,7 +69,7 @@
             this.GB_P1.Controls.Add(this.P1_MR);
             this.GB_P1.Controls.Add(this.TB_naam_P1);
             this.GB_P1.Controls.Add(this.label1);
-            this.GB_P1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.GB_P1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.GB_P1.Location = new System.Drawing.Point(12, 13);
             this.GB_P1.Name = "GB_P1";
             this.GB_P1.Size = new System.Drawing.Size(325, 322);
@@ -110,7 +110,7 @@
             this.GB_P2.Controls.Add(this.P2_MR);
             this.GB_P2.Controls.Add(this.TB_naam_P2);
             this.GB_P2.Controls.Add(this.label2);
-            this.GB_P2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.GB_P2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.GB_P2.Location = new System.Drawing.Point(367, 12);
             this.GB_P2.Name = "GB_P2";
             this.GB_P2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -161,13 +161,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(704, 386);
             this.Controls.Add(this.StartGame);
             this.Controls.Add(this.GB_P2);
             this.Controls.Add(this.GB_P1);
             this.Font = new System.Drawing.Font("Imperial One", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
             this.Name = "MiniToLifePlayerRegister";

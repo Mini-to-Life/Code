@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DiceTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DiceTool.Designer.cs">
+      <DependentUpon>DiceTool.cs</DependentUpon>
+    </Compile>
     <Compile Include="Mini-to-Life_PlayerRegister.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DiceTool.resx">
+      <DependentUpon>DiceTool.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Mini-to-Life_GameScreen.resx">
       <DependentUpon>Mini-to-Life_GameScreen.cs</DependentUpon>
     </EmbeddedResource>

@@ -23,5 +23,11 @@ namespace Mini_to_Life
             settingsForm.Show();
             this.Hide();
         }
+
+        private void BT_DiceTool_Click(object sender, EventArgs e)
+        {
+            DiceTool settingsForm = new DiceTool();
+            settingsForm.Show();
+        }
     }
 }
