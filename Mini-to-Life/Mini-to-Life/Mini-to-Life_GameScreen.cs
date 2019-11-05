@@ -20,11 +20,9 @@ namespace Mini_to_Life
             this.MiniP1 = listP1;
             this.MiniP2 = listP2;
             InitializeComponent();
-            /*
             Cursor.Current = Cursors.WaitCursor;
             System.Threading.Thread.Sleep(5000);
             Cursor.Current = Cursors.Default;
-            */
             TB_Ronde.Text = Convert.ToString(RondeCount);
             string Naam1 = "Player 1";
             string Naam2 = "Player 2";

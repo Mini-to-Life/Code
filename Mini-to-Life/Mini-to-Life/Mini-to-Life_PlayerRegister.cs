@@ -40,7 +40,7 @@ namespace Mini_to_Life
             //settingsForm.Show();
             MiniaturesP1.Add(TB_naam_P1.Text);
             Cursor.Current = Cursors.WaitCursor;
-            //System.Threading.Thread.Sleep(3000);
+            System.Threading.Thread.Sleep(3000);
             Cursor.Current = Cursors.Default;
             LB_RM_P1.Items.Add(string.Join(Environment.NewLine, TB_naam_P1.Text));
         }
@@ -51,7 +51,7 @@ namespace Mini_to_Life
             //settingsForm.Show();
             MiniaturesP2.Add(TB_naam_P2.Text);
             Cursor.Current = Cursors.WaitCursor;
-            //System.Threading.Thread.Sleep(3000);
+            System.Threading.Thread.Sleep(3000);
             Cursor.Current = Cursors.Default;
             LB_RM_P2.Items.Add(string.Join(Environment.NewLine, TB_naam_P2.Text));
         }
