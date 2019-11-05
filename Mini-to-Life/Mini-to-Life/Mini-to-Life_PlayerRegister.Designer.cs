@@ -144,6 +144,7 @@
             // 
             this.TB_naam_P2.Location = new System.Drawing.Point(6, 28);
             this.TB_naam_P2.Name = "TB_naam_P2";
+            this.TB_naam_P2.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.TB_naam_P2.Size = new System.Drawing.Size(212, 34);
             this.TB_naam_P2.TabIndex = 2;
             // 

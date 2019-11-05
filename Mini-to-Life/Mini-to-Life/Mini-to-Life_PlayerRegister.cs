@@ -15,24 +15,44 @@ namespace Mini_to_Life
     {
         List<string> MiniaturesP1 = new List<string>();
         List<string> MiniaturesP2 = new List<string>();
-        string ModelNaam;
+        public string ModelNaam { get; set; }
         public MiniToLifePlayerRegister(string Naam)
         {
             ModelNaam = Naam;
             InitializeComponent();
         }
 
+        private void CaluculateAll(System.Windows.Forms.ProgressBar progressBar)
+        {
+            progressBar.Maximum = 100000;
+            progressBar.Step = 1;
+
+            for (int j = 0; j < 100000; j++)
+            {
+                double pow = Math.Pow(j, j); //Calculation
+                progressBar.PerformStep();
+            }
+        }
+
         private void P1_MR_Click(object sender, EventArgs e)
         {
-            MTL_Register_Mini settingsForm = new MTL_Register_Mini();
-            settingsForm.Show();
-            MiniaturesP1.Add(ModelNaam);
+            //MTL_Register_Mini settingsForm = new MTL_Register_Mini();
+            //settingsForm.Show();
+            MiniaturesP1.Add(TB_naam_P1.Text);
+            Cursor.Current = Cursors.WaitCursor;
+            //System.Threading.Thread.Sleep(3000);
+            Cursor.Current = Cursors.Default;
             LB_RM_P1.Items.Add(string.Join(Environment.NewLine, TB_naam_P1.Text));
         }
 
         private void P2_MR_Click(object sender, EventArgs e)
         {
+            //MTL_Register_Mini settingsForm = new MTL_Register_Mini();
+            //settingsForm.Show();
             MiniaturesP2.Add(TB_naam_P2.Text);
+            Cursor.Current = Cursors.WaitCursor;
+            //System.Threading.Thread.Sleep(3000);
+            Cursor.Current = Cursors.Default;
             LB_RM_P2.Items.Add(string.Join(Environment.NewLine, TB_naam_P2.Text));
         }
 
