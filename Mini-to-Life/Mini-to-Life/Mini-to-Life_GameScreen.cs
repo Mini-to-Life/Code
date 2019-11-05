@@ -60,7 +60,7 @@ namespace Mini_to_Life
                     "- Movement\t6''" + System.Environment.NewLine +
                     "- Weapon Skill\t2+" + System.Environment.NewLine +
                     "- Balistic Skill\t2+" + System.Environment.NewLine +
-                    "- Strength\t4" + System.Environment.NewLine +
+                    "- Strength\t5" + System.Environment.NewLine +
                     "- Toughness\t4" + System.Environment.NewLine +
                     "- Wounds\t\t6" + System.Environment.NewLine +
                     "- Attacks\t\t6" + System.Environment.NewLine +
@@ -74,7 +74,7 @@ namespace Mini_to_Life
                     "- Movement\t6''" + System.Environment.NewLine +
                     "- Weapon Skill\t2+" + System.Environment.NewLine +
                     "- Balistic Skill\t3+" + System.Environment.NewLine +
-                    "- Strength\t4" + System.Environment.NewLine +
+                    "- Strength\t5" + System.Environment.NewLine +
                     "- Toughness\t4" + System.Environment.NewLine +
                     "- Wounds\t\t5" + System.Environment.NewLine +
                     "- Attacks\t\t5" + System.Environment.NewLine +
@@ -88,7 +88,7 @@ namespace Mini_to_Life
                     "- Movement\t6''" + System.Environment.NewLine +
                     "- Weapon Skill\t3+" + System.Environment.NewLine +
                     "- Balistic Skill\t4+" + System.Environment.NewLine +
-                    "- Strength\t4" + System.Environment.NewLine +
+                    "- Strength\t5" + System.Environment.NewLine +
                     "- Toughness\t4" + System.Environment.NewLine +
                     "- Wounds\t\t3" + System.Environment.NewLine +
                     "- Attacks\t\t3" + System.Environment.NewLine +
@@ -102,7 +102,7 @@ namespace Mini_to_Life
                     "- Movement\t6''" + System.Environment.NewLine +
                     "- Weapon Skill\t3+" + System.Environment.NewLine +
                     "- Balistic Skill\t4+" + System.Environment.NewLine +
-                    "- Strength\t4" + System.Environment.NewLine +
+                    "- Strength\t5" + System.Environment.NewLine +
                     "- Toughness\t4" + System.Environment.NewLine +
                     "- Wounds\t\t3" + System.Environment.NewLine +
                     "- Attacks\t\t3" + System.Environment.NewLine +
@@ -116,7 +116,7 @@ namespace Mini_to_Life
                     "- Movement\t6''" + System.Environment.NewLine +
                     "- Weapon Skill\t3+" + System.Environment.NewLine +
                     "- Balistic Skill\t4+" + System.Environment.NewLine +
-                    "- Strength\t4" + System.Environment.NewLine +
+                    "- Strength\t5" + System.Environment.NewLine +
                     "- Toughness\t4" + System.Environment.NewLine +
                     "- Wounds\t\t3" + System.Environment.NewLine +
                     "- Attacks\t\t3" + System.Environment.NewLine +
@@ -134,7 +134,7 @@ namespace Mini_to_Life
                     "- Movement\t5''" + System.Environment.NewLine +
                     "- Weapon Skill\t2+" + System.Environment.NewLine +
                     "- Balistic Skill\t2+" + System.Environment.NewLine +
-                    "- Strength\t5" + System.Environment.NewLine +
+                    "- Strength\t4" + System.Environment.NewLine +
                     "- Toughness\t4" + System.Environment.NewLine +
                     "- Wounds\t\t7" + System.Environment.NewLine +
                     "- Attacks\t\t4" + System.Environment.NewLine +
@@ -148,7 +148,7 @@ namespace Mini_to_Life
                     "- Movement\t5''" + System.Environment.NewLine +
                     "- Weapon Skill\t3+" + System.Environment.NewLine +
                     "- Balistic Skill\t2+" + System.Environment.NewLine +
-                    "- Strength\t5" + System.Environment.NewLine +
+                    "- Strength\t4" + System.Environment.NewLine +
                     "- Toughness\t4" + System.Environment.NewLine +
                     "- Wounds\t\t6" + System.Environment.NewLine +
                     "- Attacks\t\t3" + System.Environment.NewLine +
@@ -162,7 +162,7 @@ namespace Mini_to_Life
                     "- Movement\t5''" + System.Environment.NewLine +
                     "- Weapon Skill\t4+" + System.Environment.NewLine +
                     "- Balistic Skill\t3+" + System.Environment.NewLine +
-                    "- Strength\t5" + System.Environment.NewLine +
+                    "- Strength\t4" + System.Environment.NewLine +
                     "- Toughness\t4" + System.Environment.NewLine +
                     "- Wounds\t\t4" + System.Environment.NewLine +
                     "- Attacks\t\t2" + System.Environment.NewLine +
@@ -176,7 +176,7 @@ namespace Mini_to_Life
                     "- Movement\t5''" + System.Environment.NewLine +
                     "- Weapon Skill\t4+" + System.Environment.NewLine +
                     "- Balistic Skill\t3+" + System.Environment.NewLine +
-                    "- Strength\t5" + System.Environment.NewLine +
+                    "- Strength\t4" + System.Environment.NewLine +
                     "- Toughness\t4" + System.Environment.NewLine +
                     "- Wounds\t\t4" + System.Environment.NewLine +
                     "- Attacks\t\t2" + System.Environment.NewLine +
@@ -190,7 +190,7 @@ namespace Mini_to_Life
                     "- Movement\t5''" + System.Environment.NewLine +
                     "- Weapon Skill\t4+" + System.Environment.NewLine +
                     "- Balistic Skill\t3+" + System.Environment.NewLine +
-                    "- Strength\t5" + System.Environment.NewLine +
+                    "- Strength\t4" + System.Environment.NewLine +
                     "- Toughness\t4" + System.Environment.NewLine +
                     "- Wounds\t\t4" + System.Environment.NewLine +
                     "- Attacks\t\t2" + System.Environment.NewLine +
@@ -327,7 +327,7 @@ namespace Mini_to_Life
                     "(Melee)" + System.Environment.NewLine +
                     "  Range\tmelee" + System.Environment.NewLine +
                     "  Type\tmelee" + System.Environment.NewLine +
-                    "  Strengt\t5" + System.Environment.NewLine +
+                    "  Strengt\t6" + System.Environment.NewLine +
                     "  AP\t-3" + System.Environment.NewLine +
                     "  Damage\t2" + System.Environment.NewLine +
                     "  Additional Rules:" + System.Environment.NewLine +
@@ -349,10 +349,11 @@ namespace Mini_to_Life
                     "  Range\tmelee" + System.Environment.NewLine +
                     "  Type\tmelee" + System.Environment.NewLine +
                     "  Strengt\t4" + System.Environment.NewLine +
-                    "  AP\t0" + System.Environment.NewLine +
+                    "  AP\t-1" + System.Environment.NewLine +
                     "  Damage\t1" + System.Environment.NewLine +
                     "  Additional Rules:" + System.Environment.NewLine +
-                    "  - Skilled: Make 1 additional attack with this weapon";
+                    "  - Skilled: Make 1 additional attack with this weapon" + System.Environment.NewLine +
+                    "  - Serrated: +1 to wound in addition each unmoddified wound-roll of 6+ deals 1 additional damage";
                 TB_Player_1.Text = Text;
             }
             else if (CB_Modelselector_player1.SelectedIndex == 2)
