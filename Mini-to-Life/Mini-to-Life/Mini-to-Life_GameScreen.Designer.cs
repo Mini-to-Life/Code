@@ -50,6 +50,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.BT_volgendeRonde = new System.Windows.Forms.Button();
             this.BT_DiceTool = new System.Windows.Forms.Button();
+            this.P1_Buffs = new System.Windows.Forms.Button();
+            this.P2_Buffs = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.PB_logo)).BeginInit();
             this.Player1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PB_player1)).BeginInit();
@@ -70,6 +72,7 @@
             // Player1
             // 
             this.Player1.BackColor = System.Drawing.Color.Transparent;
+            this.Player1.Controls.Add(this.P1_Buffs);
             this.Player1.Controls.Add(this.P1_Rules);
             this.Player1.Controls.Add(this.P1_Stats);
             this.Player1.Controls.Add(this.LB_Naam_P1);
@@ -154,6 +157,7 @@
             // Player2
             // 
             this.Player2.BackColor = System.Drawing.Color.Transparent;
+            this.Player2.Controls.Add(this.P2_Buffs);
             this.Player2.Controls.Add(this.P2_Rules);
             this.Player2.Controls.Add(this.P2_Stats);
             this.Player2.Controls.Add(this.label1);
@@ -275,6 +279,26 @@
             this.BT_DiceTool.UseVisualStyleBackColor = true;
             this.BT_DiceTool.Click += new System.EventHandler(this.BT_DiceTool_Click);
             // 
+            // P1_Buffs
+            // 
+            this.P1_Buffs.Location = new System.Drawing.Point(435, 124);
+            this.P1_Buffs.Name = "P1_Buffs";
+            this.P1_Buffs.Size = new System.Drawing.Size(101, 46);
+            this.P1_Buffs.TabIndex = 11;
+            this.P1_Buffs.Text = "Buffs";
+            this.P1_Buffs.UseVisualStyleBackColor = true;
+            this.P1_Buffs.Click += new System.EventHandler(this.P1_Buffs_Clicked);
+            // 
+            // P2_Buffs
+            // 
+            this.P2_Buffs.Location = new System.Drawing.Point(17, 117);
+            this.P2_Buffs.Name = "P2_Buffs";
+            this.P2_Buffs.Size = new System.Drawing.Size(101, 46);
+            this.P2_Buffs.TabIndex = 12;
+            this.P2_Buffs.Text = "Buffs";
+            this.P2_Buffs.UseVisualStyleBackColor = true;
+            this.P2_Buffs.Click += new System.EventHandler(this.P2_Buffs_Clicked);
+            // 
             // MiniToLife
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 26F);
@@ -327,6 +351,8 @@
         private System.Windows.Forms.Button P1_Stats;
         private System.Windows.Forms.Button P2_Rules;
         private System.Windows.Forms.Button P2_Stats;
+        private System.Windows.Forms.Button P1_Buffs;
+        private System.Windows.Forms.Button P2_Buffs;
     }
 }
 

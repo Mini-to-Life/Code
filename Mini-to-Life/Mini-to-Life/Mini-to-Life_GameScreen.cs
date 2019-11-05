@@ -221,14 +221,14 @@ namespace Mini_to_Life
                     "(Melee)" + System.Environment.NewLine +
                     "  Range\tmelee" + System.Environment.NewLine +
                     "  Type\tmelee" + System.Environment.NewLine +
-                    "  Strengt\t+2" + System.Environment.NewLine +
+                    "  Strengt\t7" + System.Environment.NewLine +
                     "  AP\t-2" + System.Environment.NewLine +
                     "  Damage\tD3" + System.Environment.NewLine + System.Environment.NewLine +
                     "- ForgeHammer" + System.Environment.NewLine +
                     "(Melee)" + System.Environment.NewLine +
                     "  Range\tmelee" + System.Environment.NewLine +
                     "  Type\tmelee" + System.Environment.NewLine +
-                    "  Strengt\tx2" + System.Environment.NewLine +
+                    "  Strengt\t10" + System.Environment.NewLine +
                     "  AP\t-3" + System.Environment.NewLine +
                     "  Damage\t3" + System.Environment.NewLine +
                     "  Additional Rules:" + System.Environment.NewLine +
@@ -327,11 +327,11 @@ namespace Mini_to_Life
                     "(Melee)" + System.Environment.NewLine +
                     "  Range\tmelee" + System.Environment.NewLine +
                     "  Type\tmelee" + System.Environment.NewLine +
-                    "  Strengt\t+2" + System.Environment.NewLine +
+                    "  Strengt\t5" + System.Environment.NewLine +
                     "  AP\t-3" + System.Environment.NewLine +
                     "  Damage\t2" + System.Environment.NewLine +
                     "  Additional Rules:" + System.Environment.NewLine +
-                    "  - Skilled: Make 1 additional attack whit this weapon";
+                    "  - Skilled: Make 1 additional attack with this weapon";
                 TB_Player_1.Text = Text;
             }
             else if (CB_Modelselector_player1.SelectedIndex == 1)
@@ -352,7 +352,7 @@ namespace Mini_to_Life
                     "  AP\t0" + System.Environment.NewLine +
                     "  Damage\t1" + System.Environment.NewLine +
                     "  Additional Rules:" + System.Environment.NewLine +
-                    "  - Skilled: Make 1 additional attack whit this weapon";
+                    "  - Skilled: Make 1 additional attack with this weapon";
                 TB_Player_1.Text = Text;
             }
             else if (CB_Modelselector_player1.SelectedIndex == 2)
@@ -400,6 +400,81 @@ namespace Mini_to_Life
                     "  Strengt\t4" + System.Environment.NewLine +
                     "  AP\t0" + System.Environment.NewLine +
                     "  Damage\t1" + System.Environment.NewLine;
+                TB_Player_1.Text = Text;
+            }
+        }
+        private void P2_Buffs_Clicked(object sender, EventArgs e)
+        {
+            if (CB_Modelselector_player2.SelectedIndex == 0)
+            {
+                string Text = "Buffs:" + System.Environment.NewLine +
+                    "Rapid Fire: Each unmodified hit-roll of 6 for ranged attacks makes 1 additional ranged attack with the same weapon against the same target with the same rules aplied to it as the other ranged attacks" + System.Environment.NewLine + System.Environment.NewLine +
+                    "Captain of The Sons of the Sun: Re-Roll hit-rolls of 1 for friendly Blue Flames models within 6'' of this moddel" + System.Environment.NewLine + System.Environment.NewLine +
+                    "Adamantium Armorment: This model has a 4+ invulnerable save";
+                TB_Player_2.Text = Text;
+            }
+            else if (CB_Modelselector_player2.SelectedIndex == 1)
+            {
+                string Text = "Buffs:" + System.Environment.NewLine +
+                    "Rapid Fire: Each unmodified hit-roll of 6 for ranged attacks makes 1 additional ranged attack with the same weapon against the same target with the same rules aplied to it as the other ranged attacks" + System.Environment.NewLine + System.Environment.NewLine +
+                    "Captain of The Sons of the Sun: Re-Roll wound-rolls of 1 for friendly Blue Flames models within 6'' of this moddel" + System.Environment.NewLine + System.Environment.NewLine +
+                    "Reflective Armor: This model has a 5+ invulnerable save";
+                TB_Player_2.Text = Text;
+            }
+            else if (CB_Modelselector_player2.SelectedIndex == 2)
+            {
+                string Text = "Buffs:" + System.Environment.NewLine +
+                   "Rapid Fire: Each unmodified hit-roll of 6 for ranged attacks makes 1 additional ranged attack with the same weapon against the same target with the same rules aplied to it as the other ranged attacks";
+                TB_Player_2.Text = Text;
+            }
+            else if (CB_Modelselector_player2.SelectedIndex == 3)
+            {
+                string Text = "Buffs:" + System.Environment.NewLine +
+                   "Rapid Fire: Each unmodified hit-roll of 6 for ranged attacks makes 1 additional ranged attack with the same weapon against the same target with the same rules aplied to it as the other ranged attacks";
+                TB_Player_2.Text = Text;
+            }
+            else if (CB_Modelselector_player2.SelectedIndex == 4)
+            {
+                string Text = "Buffs:" + System.Environment.NewLine +
+                   "Rapid Fire: Each unmodified hit-roll of 6 for ranged attacks makes 1 additional ranged attack with the same weapon against the same target with the same rules aplied to it as the other ranged attacks";
+                TB_Player_2.Text = Text;
+            }
+        }
+
+        private void P1_Buffs_Clicked(object sender, EventArgs e)
+        {
+            if (CB_Modelselector_player1.SelectedIndex == 0)
+            {
+                string Text = "Buffs:" + System.Environment.NewLine +
+                    "First to Fray: Add 1 to the attacks of this moddel if it charged this turn" + System.Environment.NewLine + System.Environment.NewLine +
+                    "Captain of The Blue Flames: Re-Roll hit-rolls of 1 for friendly Blue Flames models within 6'' of this moddel" + System.Environment.NewLine + System.Environment.NewLine +
+                    "Lightning Quick Reflexes: This model has a 4+ invulnerable save";
+                TB_Player_1.Text = Text;
+            }
+            else if (CB_Modelselector_player1.SelectedIndex == 1)
+            {
+                string Text = "Buffs:" + System.Environment.NewLine +
+                    "First to Fray: Add 1 to the attacks of this moddel if it charged this turn" + System.Environment.NewLine + System.Environment.NewLine +
+                    "Lieutenant of The Blue Flames: Re-Roll wound-rolls of 1 for friendly Blue Flames models within 6'' of this moddel" + System.Environment.NewLine + System.Environment.NewLine +
+                    "Enchanced Reflexes: This model has a 5+ invulnerable save";
+                TB_Player_1.Text = Text;
+            }
+            else if (CB_Modelselector_player1.SelectedIndex == 2)
+            {
+                string Text = "Buffs:" + System.Environment.NewLine +
+                    "First to Fray: Add 1 to the attacks of this moddel if it charged this turn";
+                TB_Player_1.Text = Text;
+            }
+            else if (CB_Modelselector_player1.SelectedIndex == 3)
+            {
+                string Text = "Buffs:" + System.Environment.NewLine +
+                    "First to Fray: Add 1 to the attacks of this moddel if it charged this turn";
+                TB_Player_1.Text = Text;
+            }
+            else if (CB_Modelselector_player1.SelectedIndex == 4)
+            {
+                string Text = "Buffs:" + System.Environment.NewLine +
+                    "First to Fray: Add 1 to the attacks of this moddel if it charged this turn";
                 TB_Player_1.Text = Text;
             }
         }
