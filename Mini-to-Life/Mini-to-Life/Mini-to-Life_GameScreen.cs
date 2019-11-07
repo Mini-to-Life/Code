@@ -57,6 +57,7 @@ namespace Mini_to_Life
             if (CB_Modelselector_player1.SelectedIndex == 0)
             {
                 string Text = "STATS:" + System.Environment.NewLine +
+                    "- type: Grand Master" + System.Environment.NewLine +
                     "- Movement\t6''" + System.Environment.NewLine +
                     "- Weapon Skill\t2+" + System.Environment.NewLine +
                     "- Balistic Skill\t2+" + System.Environment.NewLine +
@@ -71,6 +72,7 @@ namespace Mini_to_Life
             else if (CB_Modelselector_player1.SelectedIndex == 1)
             {
                 string Text = "STATS:" + System.Environment.NewLine +
+                    "- type: sgt. Lieutanant" + System.Environment.NewLine +
                     "- Movement\t6''" + System.Environment.NewLine +
                     "- Weapon Skill\t2+" + System.Environment.NewLine +
                     "- Balistic Skill\t3+" + System.Environment.NewLine +
@@ -85,6 +87,7 @@ namespace Mini_to_Life
             else if (CB_Modelselector_player1.SelectedIndex == 2)
             {
                 string Text = "STATS:" + System.Environment.NewLine +
+                    "- type: assault gunner" + System.Environment.NewLine +
                     "- Movement\t6''" + System.Environment.NewLine +
                     "- Weapon Skill\t3+" + System.Environment.NewLine +
                     "- Balistic Skill\t4+" + System.Environment.NewLine +
@@ -99,6 +102,7 @@ namespace Mini_to_Life
             else if (CB_Modelselector_player1.SelectedIndex == 3)
             {
                 string Text = "STATS:" + System.Environment.NewLine +
+                    "- type: assault gunner" + System.Environment.NewLine +
                     "- Movement\t6''" + System.Environment.NewLine +
                     "- Weapon Skill\t3+" + System.Environment.NewLine +
                     "- Balistic Skill\t4+" + System.Environment.NewLine +
@@ -113,6 +117,7 @@ namespace Mini_to_Life
             else if (CB_Modelselector_player1.SelectedIndex == 4)
             {
                 string Text = "STATS:" + System.Environment.NewLine +
+                    "- type: assault gunner" + System.Environment.NewLine +
                     "- Movement\t6''" + System.Environment.NewLine +
                     "- Weapon Skill\t3+" + System.Environment.NewLine +
                     "- Balistic Skill\t4+" + System.Environment.NewLine +
@@ -131,6 +136,7 @@ namespace Mini_to_Life
             if (CB_Modelselector_player2.SelectedIndex == 0)
             {
                 string Text = "STATS:" + System.Environment.NewLine +
+                    "- type: Forge Master" + System.Environment.NewLine +
                     "- Movement\t5''" + System.Environment.NewLine +
                     "- Weapon Skill\t2+" + System.Environment.NewLine +
                     "- Balistic Skill\t2+" + System.Environment.NewLine +
@@ -145,6 +151,7 @@ namespace Mini_to_Life
             else if (CB_Modelselector_player2.SelectedIndex == 1)
             {
                 string Text = "STATS:" + System.Environment.NewLine +
+                    "- type: Iron Lord" + System.Environment.NewLine +
                     "- Movement\t5''" + System.Environment.NewLine +
                     "- Weapon Skill\t3+" + System.Environment.NewLine +
                     "- Balistic Skill\t2+" + System.Environment.NewLine +
@@ -159,6 +166,7 @@ namespace Mini_to_Life
             else if (CB_Modelselector_player2.SelectedIndex == 2)
             {
                 string Text = "STATS:" + System.Environment.NewLine +
+                    "- type: Gunmaster" + System.Environment.NewLine +
                     "- Movement\t5''" + System.Environment.NewLine +
                     "- Weapon Skill\t4+" + System.Environment.NewLine +
                     "- Balistic Skill\t3+" + System.Environment.NewLine +
@@ -173,6 +181,7 @@ namespace Mini_to_Life
             else if (CB_Modelselector_player2.SelectedIndex == 3)
             {
                 string Text = "STATS:" + System.Environment.NewLine +
+                    "- type: Gunmaster" + System.Environment.NewLine +
                     "- Movement\t5''" + System.Environment.NewLine +
                     "- Weapon Skill\t4+" + System.Environment.NewLine +
                     "- Balistic Skill\t3+" + System.Environment.NewLine +
@@ -187,6 +196,7 @@ namespace Mini_to_Life
             else if (CB_Modelselector_player2.SelectedIndex == 4)
             {
                 string Text = "STATS:" + System.Environment.NewLine +
+                    "- type: Gunmaster" + System.Environment.NewLine +
                     "- Movement\t5''" + System.Environment.NewLine +
                     "- Weapon Skill\t4+" + System.Environment.NewLine +
                     "- Balistic Skill\t3+" + System.Environment.NewLine +

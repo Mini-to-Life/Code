@@ -22,18 +22,6 @@ namespace Mini_to_Life
             InitializeComponent();
         }
 
-        private void CaluculateAll(System.Windows.Forms.ProgressBar progressBar)
-        {
-            progressBar.Maximum = 100000;
-            progressBar.Step = 1;
-
-            for (int j = 0; j < 100000; j++)
-            {
-                double pow = Math.Pow(j, j); //Calculation
-                progressBar.PerformStep();
-            }
-        }
-
         private void P1_MR_Click(object sender, EventArgs e)
         {
             //MTL_Register_Mini settingsForm = new MTL_Register_Mini();
