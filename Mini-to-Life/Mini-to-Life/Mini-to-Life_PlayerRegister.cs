@@ -46,18 +46,18 @@ namespace Mini_to_Life
 
         private void StartGame_Click(object sender, EventArgs e)
         {
-            /*
-            SqlConnection myConnection = new SqlConnection("user id=Project;password=Project;server=192.168.5.170;Trusted_Connection=yes;database=Project;connection timeout=30");
+           
+            SqlConnection myConnection = new SqlConnection("Data Source=192.168.5.170;Initial Catalog=Project;Persist Security Info=True;User ID=Project;Password=Project;connection timeout=30");
             try
             {
                 myConnection.Open();
-                MessageBox.Show("It works");
+                MessageBox.Show("Data succesvol geverifieerd");
             }
             catch (Exception ex) //gooit een error als string
             {
-                MessageBox.Show(ex.ToString(), "Er is een fout");
+                MessageBox.Show(ex.ToString(), "Er is iets fout gegaan");
             }
-            */
+          
             MiniToLife settingsForm = new MiniToLife(MiniaturesP1, MiniaturesP2);
             settingsForm.Show();
             this.Hide();

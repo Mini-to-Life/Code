@@ -196,7 +196,7 @@ namespace Mini_to_Life
             else if (CB_Modelselector_player2.SelectedIndex == 4)
             {
                 string Text = "STATS:" + System.Environment.NewLine +
-                    "- type: Gunmaster" + System.Environment.NewLine +
+                    "- type: +Gunmaster" + System.Environment.NewLine +
                     "- Movement\t5''" + System.Environment.NewLine +
                     "- Weapon Skill\t4+" + System.Environment.NewLine +
                     "- Balistic Skill\t3+" + System.Environment.NewLine +
